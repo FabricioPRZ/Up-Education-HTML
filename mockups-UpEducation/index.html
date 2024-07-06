@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - UpEducation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imgs/Logo-UpEducation.svg">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="left-header">
+                <div class="logo">
+                    <img src="./imgs/Logo-UpEducation.svg" alt="UpEducation Logo">
+                </div>
+                <div class="vertical-bar">
+                    <img src="./imgs/barraVertical.png" alt="Vertical Bar">
+                </div>
+                <div class="title">
+                    <h1>𝗨𝗽𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻</h1>
+                    <h2>Cursos online más completos de México</h2>
+                </div>
+            </div>
+            <div class="right-header">
+                <h1>Inicia Seguro</h1>
+            </div>
+        </div>
+        <nav class="bottom-nav">
+            <ul>
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Requisitos</a></li>
+                <li><a href="#">Infórmate</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="login-container">
+            <div class="image">
+                <img src="./imgs/education.png" alt="Education Image">
+            </div>
+            <div class="login-form">
+                <h2>¡Bienvenido!</h2>
+                <form action="#">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" required>
+                    
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <div class="show-password-container">
+                        <input type="checkbox" id="show-password" onclick="togglePassword()">
+                        <label for="show-password" class="show-password-label">Mostrar contraseña</label>
+                    </div>
+
+                    <button type="submit">Ingresar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="./imgs/facebook.png" alt="facebook" class="redes-sociales">
+        <img src="./imgs/WhatsApp.png" alt="WhatsApp" class="redes-sociales">
+        <img src="./imgs/Instagram.png" alt="Instagram" class="redes-sociales">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
